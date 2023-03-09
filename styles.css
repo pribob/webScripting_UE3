@@ -1,0 +1,34 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    justify-content: center;
+}
+
+li {
+    padding:5px;
+    background-color: lightcoral;
+    margin: 4px;
+    border: 2px solid black;
+    width: fit-content;
+}
+input{
+    margin-right: 10px;
+}
+.input_container {
+   display: flex;
+   justify-content: center;
+}
+.list_contianer{
+    display:flex;
+    justify-content: center;
+    padding-top:10px;
+}
+
+button {
+    background-color: blue;
+    font-size: larger;
+    border-radius: 20%;
+
+}
